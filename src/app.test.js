@@ -34,5 +34,9 @@ describe("app", () => {
         1: 1
       })
     })
+    it("returns 500yen * 1, 100yen *1 when change total amount is 600", () => {
+      const changeDistribution = determineChangeDistribution(600)
+      expect(changeDistribution).toMatchSnapshot()
+    })
   })
 })

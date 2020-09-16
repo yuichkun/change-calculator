@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app determineChangeDistribution returns 500yen * 1, 100yen *1 when change total amount is 600 1`] = `
+Object {
+  "1": 0,
+  "10": 0,
+  "100": 1,
+  "5": 0,
+  "50": 0,
+  "500": 1,
+}
+`;
